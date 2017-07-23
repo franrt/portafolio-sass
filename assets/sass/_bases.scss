@@ -1,0 +1,15 @@
+body {
+    font-size: $text-size;
+}
+
+.container {
+    width: 1000px;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.slider {
+    .img {
+        height: $img-height;
+    }
+}
