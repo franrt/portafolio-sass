@@ -6772,15 +6772,23 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   stroke-linecap: round;
   /*shape-rendering: crispEdges;*/ }
 
-.nav-wrapper {
-  position: fixed;
-  width: 100%;
-  z-index: 1;
-  font-size: 10px;
-  background-color: rgba(0, 0, 0, 0);
+.navbar-fixed {
+  position: absolute;
+  z-index: 999999999;
   height: 80px;
-  z-index: 1;
   color: white; }
+
+.navbar-fixed a {
+  color: white;
+  font-size: 10px; }
+
+.navbar-fixed ul li i {
+  color: white;
+  font-size: 10px; }
+
+.navbar-fixed ul li i a {
+  color: white;
+  font-size: 10px; }
 
 .nuevoNav {
   position: fixed;
@@ -6788,16 +6796,15 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   height: 80px;
   z-index: 1;
   font-size: 10px;
-  background-color: #fff; }
+  background-color: rgba(255, 255, 255, 0.1); }
 
 .nuevoNav a {
   color: #fa00e7;
-  font-size: 10px;
-  text-decoration: none;
-  padding-right: 20px; }
+  font-size: 10px; }
 
 .block1 {
-  margin-top: -50px; }
+  margin-top: -100px;
+  background-color: whitesmoke; }
 
 .para-text {
   color: white; }
@@ -6805,8 +6812,12 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 .parraf {
   color: white; }
 
+.parallax-container {
+  height: 700px; }
+
 body {
-  font-size: 10px; }
+  font-size: 10px;
+  background-color: #555; }
 
 .container {
   width: 1000px;
@@ -6815,5 +6826,8 @@ body {
 
 .slider .img {
   height: 100%; }
+
+.capa {
+  background-color: rgba(0, 0, 0, 0.2); }
 
 /*# sourceMappingURL=main.css.map */

@@ -1,12 +1,39 @@
-.nav-wrapper {
-    position: fixed;
-    width: 100%;
-    z-index: 1;
-    font-size: $text-size;
-    background-color: rgba(0, 0, 0, 0);
+.navbar-fixed {
+    position: absolute;
+    z-index: 999999999;
     height: $altura-nav;
-    z-index: 1;
-    color: white;
+    color: $nav-txt-color;
+}
+
+.navbar-fixed {
+    a {
+        color: $nav-txt-color;
+        font-size: $text-size;
+    }
+}
+
+.navbar-fixed {
+    ul {
+        li {
+            i {
+                color: $nav-txt-color;
+                font-size: $text-size;
+            }
+        }
+    }
+}
+
+.navbar-fixed {
+    ul {
+        li {
+            i {
+                a {
+                    color: $nav-txt-color;
+                    font-size: $text-size;
+                }
+            }
+        }
+    }
 }
 
 .nuevoNav {
@@ -15,12 +42,12 @@
     height: 80px;
     z-index: 1;
     font-size: $text-size;
-    background-color: #fff;
+    background-color: $fondo-nav;
 }
 
-.nuevoNav a {
-    color: #fa00e7;
-    font-size: $text-size;
-    text-decoration: none;
-    padding-right: 20px;
+.nuevoNav {
+    a {
+        color: #fa00e7;
+        font-size: $text-size;
+    }
 }

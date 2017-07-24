@@ -1,5 +1,6 @@
 body {
     font-size: $text-size;
+    background-color: #555;
 }
 
 .container {
@@ -12,4 +13,8 @@ body {
     .img {
         height: $img-height;
     }
+}
+
+.capa {
+    background-color: rgba(0, 0, 0, .2)
 }

@@ -29,40 +29,67 @@
     </ul>
 
     <!-- navbar -->
-    <nav class="nabvar">
-        <div class="nav-wrapper">
-            <a href="#!" class="brand-logo">Hestia Pro</a>
-            <ul class="right hide-on-med-and-down">
-                <!-- Dropdown Trigger -->
-                <li><i class="material-icons left">cloud</i><a class="dropdown-button" href="#!" data-activates="dropdown1">FEATURES<i class="material-icons right">arrow_drop_down</i></a></li>
-                <li><i class="material-icons left">vertical_align_center</i><a class="dropdown-button" href="#!" data-activates="dropdown2">SECTIONS<i class="material-icons right">arrow_drop_down</i></a></li>
-                <li><a><i class="material-icons">vertical_align_center</i>A link</a></li>
-                <li><a><i class="material-icons">vertical_align_center</i>A second link</a></li>
-                <li><a><i class="material-icons">vertical_align_center</i>A third link</a></li>
-            </ul>
-        </div>
-    </nav>
+
+    <div class="navbar-fixed">
+        <nav class="transparent z-depth-0">
+            <div class="nav-wrapper container">
+                <div class="row">
+                    <div class="col s12">
+                        <a href="#!">Hestia Pro</a>
+                        <ul class="right hide-on-med-and-down">
+                            <li><i class="material-icons left">cloud</i><i class="material-icons">arrow_drop_down</i><a class="dropdown-button" href="#!" data-activates="dropdown1">FEATURES</a></li>
+                            <li><i class="material-icons left">vertical_align_center</i><i class="material-icons">arrow_drop_down</i><a class="dropdown-button" href="#!" data-activates="dropdown2">SECTIONS</a></li>
+                            <li><a>SHOP<i class="material-icons left">vertical_align_center</i></a></li>
+                            <li><a>BLOG<i class="material-icons left">vertical_align_center</i></a></li>
+                            <li><a>CONTACT<i class="material-icons left">vertical_align_center</i></a></li>
+                            <li><a class="waves-effect waves-light pink btn"><i class="material-icons left">shopping_cart</i>BUY NOW</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <ul class="side-nav" id="mobile-demo">
+                    <li><i class="material-icons left">cloud</i><a class="dropdown-button" href="#!" data-activates="dropdown1">FEATURES<i class="material-icons right">arrow_drop_down</i></a></li>
+                    <li><i class="material-icons left">vertical_align_center</i><a class="dropdown-button" href="#!" data-activates="dropdown2">SECTIONS<i class="material-icons right">arrow_drop_down</i></a></li>
+                    <li><a>SHOP<i class="material-icons left">vertical_align_center</i></a></li>
+                    <li><a>BLOG<i class="material-icons left">vertical_align_center</i></a></li>
+                    <li><a>CONTACT<i class="material-icons left">vertical_align_center</i></a></li>
+                    <li><a class="waves-effect waves-light pink btn"><i class="material-icons left">shopping_cart</i>BUY NOW</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+
+
 
     <!-- fin nav -->
 
     <!-- section carousel -->
     <section>
         <div class="slider">
+
             <ul class="slides">
+
                 <li>
-                    <img src="assets/img/img_slider_1.jpg">
-                    <div class="caption center-align">
+                    <div class="capa">
+                        <img src="assets/img/img_slider_1.jpg">
+                    </div>
+                    <div class="center-align">
                         <h1>Simple & Awesome</h1>
                         <h5 class="light grey-text text-lighten-3">Beautiful, Elegantly Coded</h5>
                     </div>
+
                 </li>
+
                 <li>
-                    <img src="assets/img/img_slider_2.jpg">
+                    <div class="capa">
+                        <img src="assets/img/img_slider_2.jpg">
+                    </div>
                     <div class="caption center-align">
                         <h1>Slick Material Design</h1>
                         <h5 class="light grey-text text-lighten-3">Beautiful, Elegantly Coded, One Page Wordpress Theme for Bussiness</h5>
                     </div>
                 </li>
+
             </ul>
         </div>
 
